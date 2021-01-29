@@ -2,7 +2,6 @@ pipeline {
     agent {
             label 'mumbler-jenkins-agent'
         }
-    }
     environment {
         CI = 'true'
     }
