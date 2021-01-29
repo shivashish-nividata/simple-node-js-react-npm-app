@@ -1,7 +1,6 @@
 pipeline {
     agent {
-        docker {
-            'mumbler-jenkins-agent'
+            label 'mumbler-jenkins-agent'
         }
     }
     environment {
